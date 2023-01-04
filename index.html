@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+    <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel = "stylesheet" href = "style.css" media = "only screen and (min-width: 900px)">
+    <link rel = "stylesheet" href = "style-mobile.css" media = "only screen and (max-width: 700px)">
+    <link rel = "stylesheet" href = "style-tablet.css" media = "only screen and (max-width: 900px) and (min-width:700px)">
+    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <link rel = "icon" href="favicon.ico">
+    <title>Dostoevsky Library</title>
+</head>
+
+
+
+<body id="fordev">
+        
+    
+    <div id = "main" class = "main">
+       
+        <nav id = "navbar" class = "navbar">
+            
+            <div id = "navbar-box" class = "navbar-box">
+                
+                <div id = "cartcontainer" class = "cartcontainer"><button id = "cart" class = "cart"><img style = "width:50px" src = "carticon.jpeg"></button></div>
+                <div id = "menucontainer" class = "menucontainer"><button id = "menu" class = "menu"><img style = "width:50px" src = "menubook.png"></button></div>
+
+                <h3 id = "navtitle" class = "navtitle">Dostoevsky's Library</h3>
+            </div>
+           
+        </nav>
+    
+
+        <div id = "menuactive" class = "menuactive" style = "display: none;">
+            <div class = "menuline"><a href = "#intro">Home</a></div>
+            <div class = "menuline"><a href = "#benefits">Benefits</a></div>
+            <div class = "menuline"><a href = "#features">About</a></div>
+            <div class = "menuline"><a href = "#library">Books</a></div>
+            <div class = "menuline"><a href = "#feedback">Feedback</a></div>
+        </div>
+
+
+        <div id = "cartactive" class = "menuactive" style = "display: none;">
+            
+        </div>
+
+
+
+
+        <div id = "intro" class = "intro section">
+            <div id = "heroshot" class = "heroshot">
+                <img src="dostoevsky.jpeg" alt="some nice image!">
+            </div>
+            <div id = "cta" class = "cta">
+                <h3 style = "margin-top: 100px;">Dostoevsky's Library is where you can find it all!</h3>
+                <h1>Subscribe to the Dostoevsky's newsletter!</h1>
+                <form id = "ctaform" class = "ctaform">
+                    <input type = "email" id = "ctaemail" class = "ctaemail" placeholder="Subscribe to our newsletter">
+                    <br>
+                    <input type="button" id = "ctasubmit" class = "ctasubmit" value = "SUBSCRIBE">
+                </form>
+            </div>    
+        </div>
+
+
+
+
+        <div id = "benefits" class = "benefits section">
+            <div id = "benefitstitle"><h1>Exclusive benefits of our services</h1></div>
+            <div id = "benefit1">
+                <img src="shiping.jpeg">
+                <div class = "benefittext">Free shipping for the subscribers of our newsletter</div>
+            </div>
+            <div id = "benefit2">
+                <img src = "refundicon.jpeg">
+                <div class = "benefittext">Full refund within 48 hours</div>
+            </div>
+            <div id = "benefit3">
+                <img src = "libraryicon.jpeg">
+                <div class = "benefittext">The biggest collection of Dostoevsky's oeuvre</div>
+            </div>
+            <div id = "benefit4">
+                <img src = "24icon.png">
+                <div class = "benefittext">24/7 Customer service</div>
+            </div>
+        </div>
+
+
+
+
+
+        <div id = "features" class = "features section">
+            <div id = "featuretext" class = "featuretext">
+                <h1 style = "position:relative; top: 10%; left: 5%; right: 10%; max-width: 90%;">We are special!</h2><br>
+                <h3 style = "position:relative; top: 10%; left: 5%; right: 10%; max-width: 90%;">You may browse through all his 
+                    oeuvre and also indulge yourself in different versions and editions of each book.</h3>
+
+                <h2 id="freeshipping" style = "position:relative; top: 10%;left: 5%;">!!! Free shipping of items for the subscribers of our newsletter !!!</h2>
+                <h4 style = "position:relative; top: 20%; left: 5%; word-wrap: break-word;max-width: 90%;">Dostoevsky is probably the most famous and the most read Russian author.
+                However, the journey of his mysterious profound writings has never come to an end.
+                With each reading a new door opens to a road to the meanings and problems of life.<br>
+                Dostoyevsky is usually regarded as one of the finest novelists who ever lived. Literary modernism,
+                 existentialism, and various schools of psychology, theology, and literary criticism have been profoundly 
+                 shaped by his ideas. His works are often called prophetic because he so accurately predicted how Russia’s 
+                 revolutionaries would behave if they came to power. In his time he was also renowned for his activity as a 
+                 journalist.
+                </h4>
+            </div>
+            <div id="featureimage" class = "featureimage"><img src="download.jpeg" alt="some nice image!"></div>
+            
+        </div>
+
+
+
+
+        <div id = "library" class = "library section">
+            <div id = "title"> <h2>Our Books</h2> </div>
+            <div id = "books" class = "books">
+                <div id = "bookcard1" class = "bookcard">
+                    <img src="karamazov.jpeg" alt = "Book Cover">
+                    <div class = "bookdescription">A real masterpiece. Not only among Dostoevsky's writings but in whole world literature.</div>
+                    <div class = "bookprice">2899 Ft</div>
+                    <div id = "1" class = "addto"><button><i class = "fa fa-shopping-cart"></i></button></div>
+                </div>
+                <div id = "bookcard2" class = "bookcard">
+                    <img src="gmabler.jpeg" alt = "Book Cover">
+                    <div class = "bookdescription">This story never lets down anyone. The banality of gambling and sexual attraction are presented in the most profound way.</div>
+                    <div class = "bookprice">1099 Ft</div>
+                    <div id = "2" class = "addto"><button><i class = "fa fa-shopping-cart"></i></button></div>
+                </div>
+                <div id = "bookcard3" class = "bookcard">
+                    <img src="notesfrom.jpeg" alt = "Book Cover">
+                    <div class = "bookdescription">Implicitly criticizing Chernyshevsky, Dostoevsky creates his protagonist which devaites from all expectations to prove Dostoevsky's argument.</div>
+                    <div class = "bookprice">999 Ft</div>
+                    <div id = "3" class = "addto"><button><i class = "fa fa-shopping-cart"></i></button></div>
+                </div>
+                <div id = "bookcard4" class = "bookcard">
+                    <img src="devils.jpeg" alt = "Book Cover">
+                    <div class = "bookdescription">Demons, The Devils, The Possessed is one of the great writing's of Dostoevsky alongside The Brothers Karamzaov.</div>
+                    <div class = "bookprice">2799 Ft</div>
+                    <div id = "4" class = "addto"><button><i class = "fa fa-shopping-cart"></i></button></div>
+                </div>
+            </div>
+            <div id = "morebooks"><a href="">More Books...</a></div><!--Link to possible library page-->
+        </div>
+
+
+
+
+
+
+        <div id = "feedback" class = "section feedback">
+            <div id = "feedbacktext"><h2>We appreciate your feedback</h2></div>
+            
+            <form id = "feedbackform"><!---Possible method and action could be added-->
+                <label></label><br>
+                <input type = "email" placeholder="Email"><br>
+                <label></label><br>
+                <textarea placeholder="Please give us your feedback..."></textarea><br>
+                <label></label><br>
+                
+                <input type = "submit" value="Send">
+            </form>    
+        </div>
+
+
+
+
+        <footer id = "footer" class = "footer section">
+            
+            <h4 style = "position: relative; top: 20px;">This website is trusted by +1M customers (Just Joking)</h4>
+            <h5>The rest of the joke: here are our partners</h5>
+            <i style="display:inline-block" class="fa-brands fa-instagram"></i>
+            <i style="display:inline-block" class="fa-brands fa-facebook"></i>
+            <i style="display:inline-block" class="fa-brands fa-google"></i>
+            <h5>This is a mini project made for the ITrainee Program</h5>
+            <h5>Winter / 2022-2023</h5>
+            
+            <div>Designed By Arash Poorakbar</div>
+    
+        </footer>
+        
+
+
+       
+
+    <script src = "index.js"></script>
+
+</body>
+</html>
